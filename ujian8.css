@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#navigasi {
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.container-navigasi {
+    background-color: white;
+    display: flex;
+    justify-content: space-between  ;
+    font-family: Inter;
+}
+
+.logo-header {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.logo-header img {
+    margin-right: 1px;
+}
+
+.list-navigasi {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.list-navigasi li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.list-navigasi button {
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.container-banner {
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inter;
+}
+
+.belajar h1 {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.belajar p {
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.belajar button {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.container-banner img {
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.belajar button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.user {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.user span {
+    color: white;
+    background-color: red;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    text-align: center;
+    border-radius: 100%;
+    right: -4px;
+    top: -4px;
+   }
+
+#body {
+    height: 270px;
+    padding-top: 100px;
+}
+
+.klien h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #4D4D4D;
+    font-family: Inter;
+}
+
+.klien p {
+    text-align: center;
+    color: #4D4D4D;
+    font-family: Inter;
+}
+
+.icon {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 3%
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+    margin-right: 7%;
+    justify-content: space-around;
+}
+
+#body2 {
+    padding-top: 100px;
+}
+
+.komunitas h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #4D4D4D;
+    font-family: Inter;
+}
+
+.komunitas p {
+    font-size: 20px;
+    font-family: Inter;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.komunitas img {
+    width: 400px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width :745px){
+
+    .icon-menu {
+        display: block;
+
+    }
+
+    .list-navigasi {
+        display: none;
+    }
+
+    .container-banner img {
+        display: none;
+    }
+
+}
+
+#body3 {
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.body3 img {
+    width: 500px;
+    margin-left: 10%;
+    margin-right: ;
+}
+
+.hal {
+    margin-right: 5%;
+    font-family: Inter;
+    margin-left: 100px;
+}
+
+.hal button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
